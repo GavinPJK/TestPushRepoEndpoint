@@ -1,0 +1,26 @@
+site_name: NCVO
+
+plugins:
+  - monorepo
+
+docs_dir: docs
+site_dir: site
+use_directory_urls: false
+dev_addr: 'localhost:9000'
+theme:
+  name: 'material'
+
+  markdown_extensions:
+  - markdown_include.include
+  - codehilite
+  - admonition
+  #  - mdtooltips
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Doors: 
+    - Handles: handles.md
+  - TestRepoA: '!include ./TestPushRepoA-docs/mkdocs.yml'
+  - TestRepoB: '!include ./TestPushRepoB-docs/mkdocs.yml'
