@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs = "*"
+mkdocs-material = "*"
+markdown-include = "*"
+md-tooltips = "*"
+mkdocs-monorepo-plugin = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
