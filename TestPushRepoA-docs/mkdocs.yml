@@ -1,0 +1,4 @@
+site_name: RepoA
+
+nav:
+  - Home: index.md
